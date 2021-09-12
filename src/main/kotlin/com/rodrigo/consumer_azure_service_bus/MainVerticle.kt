@@ -6,7 +6,6 @@ import com.azure.messaging.servicebus.ServiceBusException
 import com.azure.messaging.servicebus.ServiceBusProcessorClient
 import com.azure.messaging.servicebus.ServiceBusReceivedMessageContext
 import io.vertx.core.AbstractVerticle
-import java.util.concurrent.TimeUnit
 
 
 class MainVerticle : AbstractVerticle() {
