@@ -29,10 +29,6 @@ class MainVerticle : AbstractVerticle() {
         println("Starting the processor")
         processorClient.start()
 
-        TimeUnit.SECONDS.sleep(10)
-        println("Stopping and closing the processor")
-        processorClient.close()
-
         super.start()
     }
 

@@ -32,7 +32,6 @@ application {
 
 dependencies {
     implementation(platform("io.vertx:vertx-stack-depchain:$vertxVersion"))
-    implementation("io.vertx:vertx-amqp-client")
     implementation("io.vertx:vertx-lang-kotlin")
     implementation(kotlin("stdlib-jdk8"))
     implementation("com.azure:azure-messaging-servicebus:7.4.0")
