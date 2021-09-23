@@ -4,4 +4,5 @@
 
 To run the project check the **Application.kt** class
 
-![Run Project](docs/run.gif)
+![By Rodrigo Diego Quispe Laura](docs/run.gif)
+
